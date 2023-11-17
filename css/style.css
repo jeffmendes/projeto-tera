@@ -1,3 +1,28 @@
 body{
     min-width: 372px;
+    background-color: #ffdede;
+}
+
+.navbar{
+    background-color: #ffa1a1;
+}
+
+.container{
+    background-color: #ffa1a1;
+}
+
+.dropdown-menu{
+    background-color: #ffa1a1;
+}
+
+.dropdown-item{
+    background-color: #ffa1a1;
+}
+
+.form-control{
+    background-color: #fcc8c8;
+}
+
+.container-fluid{
+    background-color: #fcc8c8;
 }
