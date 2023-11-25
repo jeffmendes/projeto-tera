@@ -3,26 +3,19 @@ body{
     background-color: #ffdede;
 }
 
-.navbar{
-    background-color: #ffa1a1;
-}
-
-.container{
+.rosa{
     background-color: #ffa1a1;
 }
 
 .dropdown-menu{
-    background-color: #ffa1a1;
+    background-color: #df7a7a;
 }
 
 .dropdown-item{
-    background-color: #ffa1a1;
+    background-color: #df7a7a;
+    color: white;
 }
 
-.form-control{
-    background-color: #fcc8c8;
-}
-
-.container-fluid{
-    background-color: #fcc8c8;
+.wrapper{
+    min-height: 100vh;
 }
