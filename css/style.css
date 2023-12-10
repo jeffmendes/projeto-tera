@@ -1,10 +1,14 @@
 body{
     min-width: 372px;
-    background-color: #ffdede;
+    /*background-color: #ffdede;*/
 }
 
 .rosa{
     background-color: #ffa1a1;
+}
+
+.rosaClaro{
+    background-color: #ffdede;
 }
 
 .dropdown-menu{
@@ -18,4 +22,16 @@ body{
 
 .wrapper{
     min-height: 100vh;
+}
+
+.preco{
+    font-size:x-small;
+}
+
+.card{
+    border: none;
+}
+
+.card-header{
+    border: none;
 }
