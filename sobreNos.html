@@ -18,6 +18,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         >
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/css/style.css">
         <title>Nova Bossa - A Nova Bossa</title>
     </head>
@@ -50,7 +51,7 @@
                             <li class="nav-item">
                                 <a class="nav-link active" href="/sobreNos.html">A Nova Bossa</a>
                             </li>
-                            <li class="nav-item dropdown flex-grow-1">
+                            <li class="nav-item dropdown">
                                 <a
                                     class="nav-link dropdown-toggle"
                                     href="#"
@@ -60,7 +61,7 @@
                                 >
                                     Produtos
                                 </a>
-                                                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu">
                                     <li>
                                         <a class="dropdown-item" href="/produtosCamisetas.html">Camisetas</a>
                                     </li>
@@ -75,6 +76,7 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li class="nav-item flex-grow-1"></li>
                             <li class="nav-item dropdown">
                                 <a
                                     class="nav-link dropdown-toggle"
@@ -96,9 +98,9 @@
                             </li>
                             <li class="nav-item">
                                 <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0" title="5 produto(s) no carrinho">
-                                    <small>5</small>
+                                    <small>3</small>
                                 </span>
-                                <a href="/carrinho.html" class="nav-link text-white">
+                                <a href="/carrinhoCompras.html" class="nav-link text-white">
                                     <i class="bi-cart" style="font-size: 24px; line-height: 24px;"></i>
                                 </a>
                             </li>
@@ -112,45 +114,63 @@
                 <div class="container">
                     <h1>A Nova Bossa</h1>
                     <hr>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Boas compras
-                    </p>
-                </div>
-            </main>
-            <!--Final do Main-->
-            <!--Começo do footer-->
-            <footer class="text-muted bg-transparent">
-                <div class="container rosa rounded-top">
-                    <div class="row py-3">
-                        <div class="col-12 col-md-4 text-center">
-                            <img src="/img/favicon/ms-icon-310x310.png" alt="Logo Nova Bossa" width="25%">
+                </p>
+                <div class="container">
+                    <div class="row g-3 pb-3">
+                        <div class="col-6 col-sm-6 col-md-6 col-xl-8">
+                            <div class="card text-center">
+                                <div class="card-header rosaClaro">
+                                    <p>
+                                        No merdado desde o início de 2023, a Nova Bossa é uma loja on line de produtos de moda que já completaram um ciclo de uso e que agora estão em busca de novos donos.
+                                        <br>
+                                        Mais que um brecho,  somos uma loja de produtos de primeira qualidade, fruto de uma curadoria exigente e minuciosa, onde buscamos garantir a sustentabilidade proporcionando o acesso a peças usadas, para que elas não caiam em desuso ou virem resíduo têxtil precocemente, porém, garantindo a experiência de compra do cliente com um sortimento de peças com cara, cheiro e jeito de novidade.
+                                    </p>
+                                    <p>
+                                        Boas compras
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
-                            <a href="/politicaPrivacidade.html" class="text-decoration-none text-white">Política de Privacidade</a>
-                            <br>
-                            <a href="/termosDeUso.html" class="text-decoration-none text-white">Termos de Uso</a>
-                            <br>
-                            <a href="/trocas.html" class="text-decoration-none text-white">Trocas e Devoluções</a>
-                        </div>
-                        <div class="col-12 col-md-4 text-center">
-                            <a href="/contato.html" class="text-decoration-none text-white">Contato pelo Site</a>
-                            <br>
-                            <a href="mailto:jef.jefferson@live.com" class="text-decoration-none text-white">jef.jefferson@live.com</a>
-                            <br>
-                            <a href="/" class="text-decoration-none text-white">(11) 99078-5210</a>
+                        <div class="col-6 col-sm-6 col-md-6 col-xl-4">
+                            <img
+                                src="/img/Priscila.jpg"
+                                alt=""
+                                class="img-fluid rounded"
+                            >
                         </div>
                     </div>
                 </div>
-            </footer>
-            <!--Final do footer-->
+            </div>
         </div>
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+    </main>
+    <!--Final do Main-->
+    <!--Começo do footer-->
+    <footer class="text-muted bg-transparent">
+        <div class="container rosa rounded-top">
+            <div class="row py-3">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="/img/favicon/ms-icon-310x310.png" alt="Logo Nova Bossa" width="25%">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="/politicaPrivacidade.html" class="text-decoration-none text-white">Política de Privacidade</a>
+                    <br>
+                    <a href="/termosDeUso.html" class="text-decoration-none text-white">Termos de Uso</a>
+                    <br>
+                    <a href="/trocas.html" class="text-decoration-none text-white">Trocas e Devoluções</a>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="/contato.html" class="text-decoration-none text-white">Contato pelo Site</a>
+                    <br>
+                    <a href="mailto:jef.jefferson@live.com" class="text-decoration-none text-white">jef.jefferson@live.com</a>
+                    <br>
+                    <a href="/" class="text-decoration-none text-white">(11) 99078-5210</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Final do footer-->
+</div>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>
