@@ -18,7 +18,7 @@
         >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/css/style.css">
-        <title>Nova Bossa - xxxxxx</title>
+        <title>Nova Bossa - Area do Cliente</title>
     </head>
     <body>
         <div class="d-flex flex-column wrapper">
@@ -87,10 +87,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="/Login.html">Entrar</a>
+                                        <a class="dropdown-item" href="/areaCliente.html">Minha Conta</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="/cadastro.html">Cadastrar</a>
+                                        <a class="dropdown-item" href="/index.html">Sair</a>
                                     </li>
                                 </ul>
                             </li>
@@ -110,7 +110,60 @@
             <!--Começo do Main-->
             <main class="flex-fill">
                 <div class="container">
-                    
+                    <h1>Minha Conta</h1>
+                    <div class="row gx-3">
+                        <div class="col-4">
+                            <div class="list-group">
+                                <a href="areaCliente.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-person fs-6"></i>
+                                    Dados do Cliente
+                                </a>
+                                <a href="clienteContatos.html" class="list-group-item list-group-item-action bg-dark text-light">
+                                    <i class="bi-mailbox fs-6"></i>
+                                    Contatos
+                                </a>
+                                <a href="clienteEndereços.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-house fs-6"></i>
+                                    Endereços
+                                </a>
+                                <a href="clientePedidos.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-truck fs-6"></i>
+                                    Pedidos
+                                </a>
+                                <a href="clienteSenha.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-lock fs-6"></i>
+                                    Alterar Senha
+                                </a>
+                                <a href="index.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-door-open fs-6"></i>
+                                    Sair
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <form action="">
+                                <div class="form-floating mb-3 col-md-8 col-xl-6">
+                                    <input
+                                        class="form-control"
+                                        type="email"
+                                        id="email"
+                                        placeholder=" "
+                                        autofocus
+                                    >
+                                    <label for="email">E-mail</label>
+                                </div>
+                                <div class="form-floating mb-3 col-md-8 col-xl-6">
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        id="telefone"
+                                        placeholder=" "
+                                    >
+                                    <label for="telefone">Telefone</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </main>
             <!--Final do Main-->

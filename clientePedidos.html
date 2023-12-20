@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/img/favicon/favicon-16x16.png"
+        >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        >
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Nova Bossa - Area do Cliente</title>
+    </head>
+    <body>
+        <div class="d-flex flex-column wrapper">
+            <!--Começo do Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mb-3">
+                <div class="container rosa rounded">
+                    <a class="navbar-brand" href="/index.html">
+                        <img
+                            class="logo flex-grow-1"
+                            src="/img/favicon/ms-icon-310x310.png"
+                            alt="Nova Bossa"
+                            height="50px"
+                        >
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/sobreNos.html">A Nova Bossa</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Produtos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="/produtosCamisetas.html">Camisetas</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/produtosBones.html">Bonés</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/produtosCasacos.html">Casacos</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/produtosOculos.html">Óculos</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item flex-grow-1"></li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Conta
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="/areaCliente.html">Minha Conta</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/index.html">Sair</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mt-2 mt-lg-0">
+                                <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0" title="3 produto(s) no carrinho">
+                                    <small>3</small>
+                                </span>
+                                <a href="/carrinhoCompras.html" class="nav-link text-white">
+                                    <i class="bi-cart" style="font-size: 24px; line-height: 24px;"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--Fim do Navbar-->
+            <!--Começo do Main-->
+            <main class="flex-fill">
+                <div class="container">
+                    <h1>Minha Conta</h1>
+                    <div class="row gx-3">
+                        <div class="col-4">
+                            <div class="list-group">
+                                <a href="areaCliente.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-person fs-6"></i>
+                                    Dados do Cliente
+                                </a>
+                                <a href="clienteContatos.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-mailbox fs-6"></i>
+                                    Contatos
+                                </a>
+                                <a href="clienteEndereços.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-house fs-6"></i>
+                                    Endereços
+                                </a>
+                                <a href="clientePedidos.html" class="list-group-item list-group-item-action bg-dark text-light">
+                                    <i class="bi-truck fs-6"></i>
+                                    Pedidos
+                                </a>
+                                <a href="clienteSenha.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-lock fs-6"></i>
+                                    Alterar Senha
+                                </a>
+                                <a href="index.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-door-open fs-6"></i>
+                                    Sair
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <form class="row mb-3">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <select id="periodo" class="form-select">
+                                            <option value="30">Últimos 30 dias</option>
+                                            <option value="60">Últimos 60 dias</option>
+                                            <option value="90">Últimos 90 dias</option>
+                                            <option value="180">Últimos 180 dias</option>
+                                            <option value="360">Últimos 360 dias</option>
+                                            <option value="999999" selected>Todo o período</option>
+                                        </select>
+                                        <label for="periodo">Período</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <select id="ordenação" class="form-select">
+                                            <option value="1" selected>Mais recentes primeiro</option>
+                                            <option value="2">Mais antigos primeiro</option>
+                                        </select>
+                                        <label for="ordenação">Período</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="accordion" id="divPedido">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#pedido00201223"
+                                        >
+                                            <b>Pedido 00201223</b>
+                                            <span class="mx-1">(realizado em 20/12/2023)</span>
+                                        </button>
+                                    </h2>
+                                    <div id="pedido00201223" class="accordion-collapse collapse" data-bs-parent="#divPedido">
+                                        <div class="accordion-body">
+                                            <table class="table">
+                                                <thead class="border-black">
+                                                    <tr>
+                                                        <th>Produto</th>
+                                                        <th class="text-end">R$ Unitario</th>
+                                                        <th class="text-center">Quantidade</th>
+                                                        <th class="text-end">Subtotal</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Bosta em Lata</td>
+                                                        <td class="text-end">R$ 200</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-end">R$ 400</td>
+                                                    </tr>
+                                                    <tr class="border-black">
+                                                        <td>Merda em Lata</td>
+                                                        <td class="text-end">R$ 250</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-end">R$ 500</td>
+                                                    </tr>
+                                                </tbody>
+
+                                                <tfoot class="">
+                                                    <tr>
+                                                        <th class="text-end" colspan="3">Total dos Produtos</th>
+                                                        <td class="text-end">R$ 900</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="text-end" colspan="3">Forma de Pagamento</th>
+                                                        <td class="text-end">Crédito 3x R$ 300</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#pedido00261123"
+                                        >
+                                            <b>Pedido 00261123</b>
+                                            <span class="mx-1">(realizado em 26/11/2023)</span>
+                                        </button>
+                                    </h2>
+                                    <div id="pedido00261123" class="accordion-collapse collapse" data-bs-parent="#divPedido">
+                                        <div class="accordion-body">
+                                            <table class="table">
+                                                <thead class="border-black">
+                                                    <tr>
+                                                        <th>Produto</th>
+                                                        <th class="text-end">R$ Unitario</th>
+                                                        <th class="text-center">Quantidade</th>
+                                                        <th class="text-end">Subtotal</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Bosta em Lata</td>
+                                                        <td class="text-end">R$ 200</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-end">R$ 400</td>
+                                                    </tr>
+                                                    <tr class="border-black">
+                                                        <td>Merda em Lata</td>
+                                                        <td class="text-end">R$ 250</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-end">R$ 500</td>
+                                                    </tr>
+                                                </tbody>
+
+                                                <tfoot class="">
+                                                    <tr>
+                                                        <th class="text-end" colspan="3">Total dos Produtos</th>
+                                                        <td class="text-end">R$ 900</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="text-end" colspan="3">Forma de Pagamento</th>
+                                                        <td class="text-end">Crédito 3x R$ 300</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#pedido00041023"
+                                        >
+                                            <b>Pedido 00041023</b>
+                                            <span class="mx-1">(realizado em 04/10/2023)</span>
+                                        </button>
+                                    </h2>
+                                    <div id="pedido00041023" class="accordion-collapse collapse" data-bs-parent="#divPedido">
+                                        <div class="accordion-body">
+                                            <table class="table">
+                                                <thead class="border-black">
+                                                    <tr>
+                                                        <th>Produto</th>
+                                                        <th class="text-end">R$ Unitario</th>
+                                                        <th class="text-center">Quantidade</th>
+                                                        <th class="text-end">Subtotal</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Bosta em Lata</td>
+                                                        <td class="text-end">R$ 200</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-end">R$ 400</td>
+                                                    </tr>
+                                                    <tr class="border-black">
+                                                        <td>Merda em Lata</td>
+                                                        <td class="text-end">R$ 250</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-end">R$ 500</td>
+                                                    </tr>
+                                                </tbody>
+
+                                                <tfoot class="">
+                                                    <tr>
+                                                        <th class="text-end" colspan="3">Total dos Produtos</th>
+                                                        <td class="text-end">R$ 900</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="text-end" colspan="3">Forma de Pagamento</th>
+                                                        <td class="text-end">Crédito 3x R$ 300</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <!--Final do Main-->
+                <!--Começo do footer-->
+                <footer class="text-muted bg-transparent">
+                    <div class="container rosa rounded-top">
+                        <div class="row py-3">
+                            <div class="col-12 col-md-4 text-center">
+                                <img src="/img/favicon/ms-icon-310x310.png" alt="Logo Nova Bossa" width="25%">
+                            </div>
+                            <div class="col-12 col-md-4 text-center">
+                                <a href="/politicaPrivacidade.html" class="text-decoration-none text-white">Política de Privacidade</a>
+                                <br>
+                                <a href="/termosDeUso.html" class="text-decoration-none text-white">Termos de Uso</a>
+                                <br>
+                                <a href="/trocas.html" class="text-decoration-none text-white">Trocas e Devoluções</a>
+                            </div>
+                            <div class="col-12 col-md-4 text-center">
+                                <a href="/contato.html" class="text-decoration-none text-white">Contato pelo Site</a>
+                                <br>
+                                <a href="mailto:jef.jefferson@live.com" class="text-decoration-none text-white">jef.jefferson@live.com</a>
+                                <br>
+                                <a href="/" class="text-decoration-none text-white">(11) 99078-5210</a>
+                                <a href="/base.html">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!--Final do footer-->
+            </div>
+        </body>
+    </html>
